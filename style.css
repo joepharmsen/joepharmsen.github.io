@@ -1,0 +1,15 @@
+.menu {
+	
+	float:center;
+	font family: arial;
+
+}
+
+.intro-text {
+	
+	float:left;
+	font family: arial;
+	padding: 10px;
+	width: 50%;
+
+}
