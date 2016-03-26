@@ -10,6 +10,9 @@ background-color: #f8f8f8;
 
 a {
 text-decoration:none;
+    color:gray;
+    text-align: center;
+    
 }
 
 li {
@@ -47,8 +50,33 @@ margin: 50px 24px 0px 0px;
 }
 
 img:hover {
-opacity: .8;
+opacity: .6;
 -webkit-transition: all .9s ease-in-out;
 -webkit-transition: all .4s ease-in-out;
 -moz-transition: all .4s ease-in-out;
+}
+
+.nav {
+  background-color: aliceblue;
+  color: whitesmoke;
+  list-style: none; 
+  text-align: centre;
+  padding: 20px 0 20px 0;
+  font-family: font-family: Quattrocento, serif;
+  margin: auto;
+}
+
+.nav > li {
+  display: inline-block;
+  padding-right: 50px;
+ 
+  }
+
+.nav > li > a {
+  text-decoration: none;
+  color:black;
+}
+
+.nav > li > a:hover {
+  color: #c1c1c1;
 }
