@@ -3,15 +3,24 @@ margin: 0;
 padding: 0;
 }
 
+h1 {
+    text-align: center;
+margin-top: 40px;
+    border: 10px;
+    color: skyblue;
+}
+
 body {
 font-family: "Helvetica Neue", "Helvetica", "Arial";
 background-color: #f8f8f8;
+background='background.jpg' 
 }
 
 a {
 text-decoration:none;
     color:gray;
     text-align: center;
+    margin: 50px 24px 0px 0px;
     
 }
 
@@ -21,26 +30,20 @@ list-style: none;
 }
 
 container {
-width: 960px;
+width: 1260px;
 height: auto;
 margin-left: auto;
 margin-right: auto;
 margin-top: 160px;
 }
 
-h1 {
-text-align: center;
-margin-top: 40px;
-color: #fcc00;
-}
-
 img {
 display: inline;
 margin-left: auto; 
 margin-right: auto;
-background: #fff;
+background: black;
 padding: 5px;
-border: 2px solid #ccc;
+border: 2px solid black;
 border-radius: 5px;
 -moz-border-radius: 5px;
 -webkit-transition: all .9s ease-in-out;
@@ -61,8 +64,8 @@ opacity: .6;
   color: whitesmoke;
   list-style: none; 
   text-align: centre;
-  padding: 50px 0 20px 0;
-  font-family: font-family: Quattrocento, serif;
+  padding: 50px 0 50px 0;
+  font: Helvetica;
   margin: auto;
 }
 
@@ -79,4 +82,30 @@ opacity: .6;
 
 .nav > li > a:hover {
   color: #c1c1c1;
+}
+
+
+.image { 
+   position: relative; 
+   width: 100%; 
+}
+
+h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
+h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: black;
+   background: black;
+    opacity: 0.7;
+   padding: 10px; 
+}
+h2 span.spacer {
+   padding:0 5px;
 }
