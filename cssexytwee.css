@@ -10,6 +10,11 @@ margin-top: 40px;
     color: #EA6C80;
 }
 
+h2 {
+    font-family: "Helvetica Neue", "Helvetica", "Arial";
+    font: Helvetica;
+}
+
 body {
 font-family: "Helvetica Neue", "Helvetica", "Arial";
 background-color: #f8f8f8;
@@ -107,6 +112,10 @@ margin-top: 160px;
     opacity: 0.8;
 }
 
+
+a:link {
+   color:inherit;
+}
 
 .mmio-grid {
 	margin: auto;
