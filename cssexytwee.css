@@ -131,6 +131,9 @@ a:link {
 
 }
 
+ /* De basis van dit grid komt van http://geekgirllife.com/animate-text-over-images-on-hover-without-javascript.
+    Ik heb wel veel variabele en instellingen aangepast en begrijp wat het doet. */
+
 .mmio-grid figure {
 	height: 163px;
 	overflow: hidden;
